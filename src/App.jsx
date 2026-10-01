@@ -41,7 +41,7 @@ function App() {
           <input type="text"
             value={cep}
             onChange={(bosteio) => setCep(bosteio.target.value)}
-            placeholder='Digite seu CEP'
+            placeholder='EX: 00000-000'
           />
           <button onClick={shareCep}>Buscar Cep</button>
 
